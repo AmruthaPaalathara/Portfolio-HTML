@@ -281,6 +281,30 @@ html {
 .work:hover .layer {
     height: 100%;
 }
+
+.work-2 {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    position: relative;
+    height: 345px;
+}
+
+.work-2:hover img {
+    transform: scale(1.1);
+}
+
+.work-2:hover .layer {
+    height: 100%;
+}
+
+.work-3 {
+    width: 100%;
+    border-radius: 10px;
+    display:flex;
+    transition: transform 0.5s;
+}
 /* --------------------------------------------internship page------------------------------------------ */
 
 /* --------------------------------------------contact------------------------------------------------------ */
